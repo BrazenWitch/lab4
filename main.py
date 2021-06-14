@@ -52,4 +52,4 @@ app.register_blueprint(main,url_prefix='/')
 app.register_blueprint(sitepart,url_prefix='/sitepart')
 
 # Запуск приложения flask в режиме debug
-app.run(debug=True)
+flaskapp.run(debug=True)
